@@ -1,0 +1,50 @@
+CSCI 4410 – OLA1
+Name: Zelalem Tewelde
+
+========================
+Stage 1: Outline of Structure
+========================
+
+Top
+- H1: Zelalem Tewelde’s Personal Homepage
+
+Section 1: About Me
+- One paragraph introducing myself
+- Includes name, where I’m from, academic interests, and goals
+- Uses text formatting (bold, italic, marked)
+
+Section 2: Image
+- One local image with alt text
+- One online image with credit
+- Short paragraph explaining what the image represents and why it is meaningful
+
+Section 3: Lists
+- Unordered list (custom bullet style) of hobbies and interests
+- Ordered list of goals
+- Nested list inside one unordered list item
+- Short explanation paragraph
+
+Section 4: Favorites Table
+- Table with thead and tbody
+- Includes rowspan and colspan
+- Short explanation describing what the table contains
+
+Section 5: External Link
+- One meaningful external link
+- Short explanation describing why the link was chosen
+
+Bottom
+- Bookmark link that returns the user to the top of the page
+
+========================
+Stage 3: Reflection
+========================
+
+1) What changed between your Stage 1 outline and your final HTML? Why did you change it?
+I kept the same overall structure, but I added short explanation paragraphs under each section to make the page clearer and easier to understand. These changes were made after testing the page and realizing it looked too plain without explanations.
+
+2) What was the hardest part to implement correctly, and why?
+The hardest part was creating the table with thead, tbody, rowspan, and colspan while keeping everything aligned correctly. It required careful planning to make sure the table structure worked as intended.
+
+3) Describe one mistake you made and how you fixed it.
+One mistake I made was using the wrong file path for my local image, which caused it not to display. I fixed it by placing the image in the images folder and correcting the src path in the HTML file.
