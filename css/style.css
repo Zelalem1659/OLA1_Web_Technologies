@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #66738d;
+  background-color: #e0e3ea;
   color: #181515;
   margin: 20px;
 }
@@ -28,10 +28,11 @@ p {
 
 img {
   display: block;
-  margin: 15px auto;
+  margin: 15px 0 auto;
   border: 2px solid #ccc;
   padding: 5px;
   background-color: white;
+  text-align: left;
 }
 
 /* ========================= */
@@ -80,3 +81,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+#para1 {
+  		text-align: left;
+  		color: rgb(22, 20, 20);
+	}
