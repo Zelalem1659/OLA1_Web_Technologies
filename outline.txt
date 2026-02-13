@@ -14,7 +14,7 @@ Section 1: About Me
 - Uses text formatting (bold, italic, marked)
 
 Section 2: Image
-- One local image with alt text
+- One online image with alt text
 - One online image with credit
 - Short paragraph explaining what the image represents and why it is meaningful
 
