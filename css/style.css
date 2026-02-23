@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #e0e3ea;
+  background-color: #768ca5;
   color: #181515;
   margin: 20px;
 }
@@ -54,19 +54,20 @@ ol {
 table {
   border-collapse: collapse;
   width: 80%;
-  margin: 20px auto;
-  background-color: white;
+  margin: 10px 0;
+  background-color: #e8eef5;
 }
 
 th {
   background-color: #003366;
   color: white;
-  padding: 10px;
+  padding: none;
+  text-align: left;
 }
 
 td {
   padding: 8px;
-  text-align: center;
+  text-align: left;
 }
 
 /* ========================= */
@@ -85,3 +86,46 @@ a:hover {
   		text-align: left;
   		color: rgb(22, 20, 20);
 	}
+  /* ========================= */
+/* NAVIGATION BAR            */
+/* ========================= */
+
+nav {
+  background-color: #111213;
+  padding: 10px;
+  text-align: left;
+  margin-bottom: none;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  margin: 0 1ch;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ========================= */
+/* FOOTER                    */
+/* ========================= */
+
+footer {
+  background-color: #090909;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

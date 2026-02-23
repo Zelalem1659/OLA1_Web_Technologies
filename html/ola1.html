@@ -6,7 +6,6 @@
   <!-- ========================= -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Zelalem Tewelde – OLA1 Web Technologies</title>
 
   <!-- External CSS -->
@@ -14,20 +13,34 @@
 </head>
 
 <body>
-  <!-- ========================= -->
-  <!-- TOP / TITLE AREA          -->
-  <!-- ========================= -->
+
+
+
+<!-- ========================= -->
+<!-- HEADER / TITLE            -->
+<!-- ========================= -->
+<header>
   <h1 id="top">Zelalem Tewelde’s Personal Homepage</h1>
+</header>
+<!-- ========================= -->
+<!-- NAVIGATION BAR            -->
+<!-- ========================= -->
+<nav>
+    <a href="ola1.html" class="active">OLA1</a>
+    <a href="CV.html">OLA2</a>
+</nav>
 
-  <p>
-    Welcome to my personal webpage for <strong>CSCI 4410 Web Technologies</strong>.
-    This page was created as part of <em>OLA1</em> to demonstrate my understanding
-    of basic HTML elements and structure.
-  </p>
+<p>
+  Welcome to my personal webpage for 
+  <strong>CSCI 4410 Web Technologies</strong>.
+  This page was created as part of <em>OLA1</em> to demonstrate my understanding
+  of basic HTML elements and structure.
+</p>
 
-  <!-- ========================= -->
-  <!-- SECTION 1: ABOUT ME       -->
-  <!-- ========================= -->
+<!-- ========================= -->
+<!-- SECTION 1: ABOUT ME       -->
+<!-- ========================= -->
+<section>
   <h2>About Me</h2>
 
   <p>
@@ -39,50 +52,52 @@
     My goal is to build skills that will allow me to protect systems
     and help people use technology safely.
   </p>
+</section>
 
-  <!-- ========================= -->
-  <!-- SECTION 2: IMAGE          -->
-  <!-- ========================= -->
+<!-- ========================= -->
+<!-- SECTION 2: IMAGE          -->
+<!-- ========================= -->
+<section>
   <h2>Image That Represents Me</h2>
 
-  <!-- online image from my resume site  -->
   <img src="https://zelalem-resume-site-uyqz.vercel.app/profile.jpg" 
-  alt="A meaningful image representing calm and focus" width="300">
+       alt="Portrait of Zelalem Tewelde"
+       width="300">
 
   <p id="para1">
-   personal image 
+    This image represents my professional identity and commitment to learning.
   </p>
 
-  <!-- Online image with credit -->
   <img src="https://mtsunews.com/wp-content/uploads/2020/06/20200601D-114-1170x780.jpg"
        alt="Middle Tennessee State University campus"
        width="300">
 
   <p>
     Image source:
-    <a href="https://mtsunews.com/wp-content/uploads/2020/06/20200601D-114-1170x780.jpg" target="_blank">
-      MTSU campus
+    <a href="https://mtsunews.com/" target="_blank">
+      MTSU Campus Photo
     </a>
   </p>
+</section>
 
-  <!-- ========================= -->
-  <!-- SECTION 3: LISTS          -->
-  <!-- ========================= -->
+<!-- ========================= -->
+<!-- SECTION 3: LISTS          -->
+<!-- ========================= -->
+<section>
   <h2>My Interests & Hobbies</h2>
 
   <p>
-    The following lists describe my interests and personal goals. A nested list
-    is included to show more detail.
+    The following lists describe my interests and personal goals.
+    A nested list is included to show more detail.
   </p>
 
-  <!-- Unordered list with custom bullets -->
-  <ul style="list-style-type: square;">
+  <!-- Unordered list with nested list -->
+  <ul class="custom-bullets">
     <li>Cybersecurity fundamentals</li>
     <li>Web development (HTML & CSS)</li>
     <li>Fitness and healthy living</li>
     <li>Favorite foods
-      <!-- Nested list -->
-      <ul style="list-style-type: circle;">
+      <ul class="custom-bullets">
         <li>Injera with lentils</li>
         <li>Vegetables and salad</li>
         <li>Fresh fruits</li>
@@ -96,19 +111,21 @@
     <li>Practice clean HTML structure</li>
     <li>Prepare for more advanced web projects</li>
   </ol>
+</section>
 
-  <!-- ========================= -->
-  <!-- SECTION 4: TABLE          -->
-  <!-- ========================= -->
+<!-- ========================= -->
+<!-- SECTION 4: TABLE          -->
+<!-- ========================= -->
+<section>
   <h2>Favorites Table</h2>
 
   <p>
-    This table lists some of my favorites and demonstrates the use of
+    This table demonstrates the use of 
     <strong>thead</strong>, <strong>tbody</strong>,
     <em>rowspan</em>, and <em>colspan</em>.
   </p>
 
-  <table border="1" cellpadding="8" cellspacing="0">
+  <table>
     <thead>
       <tr>
         <th colspan="4">Zelalem’s Favorites</th>
@@ -133,13 +150,11 @@
         <td>Francis Ford Coppola</td>
         <td>1972</td>
       </tr>
-
       <tr>
         <td>Music</td>
         <td colspan="2">Instrumental / Focus Music</td>
         <td>—</td>
       </tr>
-
       <tr>
         <td>Learning</td>
         <td>Web Technologies</td>
@@ -148,32 +163,39 @@
       </tr>
     </tbody>
   </table>
+</section>
 
-  <!-- ========================= -->
-  <!-- SECTION 5: EXTERNAL LINK  -->
-  <!-- ========================= -->
+<!-- ========================= -->
+<!-- SECTION 5: EXTERNAL LINK  -->
+<!-- ========================= -->
+<section>
   <h2>External Link</h2>
 
   <p>
-    The following link leads to a website I find very helpful for learning
-    web technologies:
+    I use the following website to improve my web development skills:
   </p>
 
   <a href="https://developer.mozilla.org/" target="_blank">
     Visit MDN Web Docs
   </a>
+</section>
 
-  <!-- ========================= -->
-  <!-- BOOKMARK                 -->
-  <!-- ========================= -->
-  <hr>
+<!-- ========================= -->
+<!-- BOOKMARK                  -->
+<!-- ========================= -->
+<p>
+  <a href="#top">Back to Top</a>
+</p>
 
+<!-- ========================= -->
+<!-- FOOTER                    -->
+<!-- ========================= -->
+<footer>
   <p>
-    <a href="#top">Back to Top</a>
+    © 2026 Zelalem Tewelde |
+    <a href="mailto:zelalemt1986@gmail.com">Contact Me</a>
   </p>
+</footer>
 
-  <!-- ========================= -->
-  <!-- END OF PAGE              -->
-  <!-- ========================= -->
 </body>
 </html>
