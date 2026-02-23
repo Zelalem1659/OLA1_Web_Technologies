@@ -129,3 +129,25 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* ========================= */
+/* PROJECTS                  */
+/* ========================= */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.project-card {
+  background-color: #e8eef5;
+  border: 1px solid #b8c7d9;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #003366;
+}
